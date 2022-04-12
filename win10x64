@@ -2,7 +2,7 @@ echo ":::::Windows 10 x64 RDP By D@rkshadow Myanmar:::::"
 echo "Download files windows"
 apt-get update && apt-get upgrade -y
 apt-get clean
-wget -O w10x64.img "https://vagrantcloud-files-production.s3-accelerate.amazonaws.com/archivist/boxes/0927cb77-c6ab-448f-bab0-14e5482fb896?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA6NDPRW4BRG64ZGTT%2F20220412%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220412T112218Z&X-Amz-Expires=900&X-Amz-Security-Token=FwoGZXIvYXdzEK3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDCdU4vwW3VehyqCRniK3AZAamJWj3rPTFPjQ8aGDx5eICtFHyIbXys0rwAvuqTs4Cykpc8xdy8QieYRG%2BUwdC3IqYIGczwxU6ZoQEtIRSG%2FDmmd1mBLL4FFDZJznEDqQJSctVm8X9pUX3bkQCH0cUaGhaDJSMAVXa2SY9QCjePUD%2FJWe6l%2FraEkKbJkbLcpmoeJ8YnuLLMFcf3oVkA6JCpO%2B5oqGl0pN%2FZ7cGM7LANM%2Bk8Ke%2FnmyfkdKfod5T1yILqj9E4v%2BFCiJwNWSBjItRl4i2ZwigCHvc1Myjdij6464%2F5yrNqceAvDXCLtw7z1FlQu0dy6qstvLplcg&X-Amz-SignedHeaders=host&X-Amz-Signature=82a445f841dd0227d104279606347b31f63ec870846a208760eb46b21ad537fe"
+wget -O w10x64.img https://bit.ly/akuhnetW10x64
 echo "Load ngrok"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
