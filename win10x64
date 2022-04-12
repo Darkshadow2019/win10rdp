@@ -18,5 +18,6 @@ echo "Ctrl+C to Copy"
 echo "Wait 1-2 Minutes to complete setup"
 echo "Do not close this tab"
 echo "Please support Hoang vtmc, thank you"
+apt-get clean
 qemu-system-x86_64 -hda w10x64.img -m 8G -smp cores=4 -net user,hostfwd=tcp::3388-:3389 -net nic -object rng-random,id=rng0,filename=/dev/urandom -device virtio-rng-pci,rng=rng0 -vga vmware -nographic
 sleep 43200
